@@ -17,7 +17,7 @@ public class FileRepository implements ShopRepository {
     @Override
     public void add(User user) {
         users.add(user);
-        serializeUser();
+        serializeUser(); // comit
     }
 
     @Override
