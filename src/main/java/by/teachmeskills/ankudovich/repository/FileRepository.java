@@ -23,7 +23,7 @@ public class FileRepository implements ShopRepository {
     @Override
     public void deleteById(long userId) {
         users.removeIf(userOk -> userOk.getId().equals(userId));
-        serializeUser();
+        serializeUser(); //comit
     }
 
     @Override
